@@ -13,7 +13,16 @@ namespace CarLog.Backend
         {
 
         }
-        //Statement to insert username and pass to account_db
+        
+
         //INSERT INTO dbo.CL_account (username, pass) VALUES ('scott', 'neit')
+
+        protected void btnNewAcc_Click(object sender, EventArgs e)
+        {
+            //insert username and password to account database
+
+            //redirect to login screen
+            Response.Redirect("~/Backend/Default");
+        }
     }
 }

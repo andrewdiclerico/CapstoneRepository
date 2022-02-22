@@ -26,5 +26,10 @@ namespace CarLog.Backend
         {
             Response.Redirect("~/Backend/AddVehicle.aspx");
         }
+
+        protected void btnUpdate_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Backend/UpDPage");
+        }
     }
 }

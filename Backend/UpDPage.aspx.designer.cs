@@ -11,61 +11,61 @@ namespace CarLog.Backend
 {
 
 
-    public partial class Default
+    public partial class UpDPage
     {
 
         /// <summary>
-        /// lblUsername control.
+        /// btnAccident control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUsername;
+        protected global::System.Web.UI.WebControls.Button btnAccident;
 
         /// <summary>
-        /// txtUsername control.
+        /// btnMaintenance control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUsername;
+        protected global::System.Web.UI.WebControls.Button btnMaintenance;
 
         /// <summary>
-        /// lblPassword control.
+        /// btnModification control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPassword;
+        protected global::System.Web.UI.WebControls.Button btnModification;
 
         /// <summary>
-        /// txtPassword control.
+        /// btnSpecification control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassword;
+        protected global::System.Web.UI.WebControls.Button btnSpecification;
 
         /// <summary>
-        /// btnLogin control.
+        /// btnStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogin;
+        protected global::System.Web.UI.WebControls.Button btnStatus;
 
         /// <summary>
-        /// lblFeedback control.
+        /// btnDashboard control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFeedback;
+        protected global::System.Web.UI.WebControls.Button btnDashboard;
     }
 }

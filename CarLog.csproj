@@ -111,7 +111,12 @@
     <Content Include="Backend\Dashboard.aspx" />
     <Content Include="Backend\Default.aspx" />
     <Content Include="Backend\Report.aspx" />
-    <Content Include="Backend\Update.aspx" />
+    <Content Include="Backend\UpDPage.aspx" />
+    <Content Include="Backend\UpD\Accident.aspx" />
+    <Content Include="Backend\UpD\Maintenance.aspx" />
+    <Content Include="Backend\UpD\Modification.aspx" />
+    <Content Include="Backend\UpD\Specification.aspx" />
+    <Content Include="Backend\UpD\Status.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -210,12 +215,47 @@
     <Compile Include="Backend\Report.aspx.designer.cs">
       <DependentUpon>Report.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Backend\Update.aspx.cs">
-      <DependentUpon>Update.aspx</DependentUpon>
+    <Compile Include="Backend\UpDPage.aspx.cs">
+      <DependentUpon>UpDPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Backend\Update.aspx.designer.cs">
-      <DependentUpon>Update.aspx</DependentUpon>
+    <Compile Include="Backend\UpDPage.aspx.designer.cs">
+      <DependentUpon>UpDPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Backend\UpD\Accident.aspx.cs">
+      <DependentUpon>Accident.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Backend\UpD\Accident.aspx.designer.cs">
+      <DependentUpon>Accident.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Backend\UpD\Maintenance.aspx.cs">
+      <DependentUpon>Maintenance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Backend\UpD\Maintenance.aspx.designer.cs">
+      <DependentUpon>Maintenance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Backend\UpD\Modification.aspx.cs">
+      <DependentUpon>Modification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Backend\UpD\Modification.aspx.designer.cs">
+      <DependentUpon>Modification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Backend\UpD\Specification.aspx.cs">
+      <DependentUpon>Specification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Backend\UpD\Specification.aspx.designer.cs">
+      <DependentUpon>Specification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Backend\UpD\Status.aspx.cs">
+      <DependentUpon>Status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Backend\UpD\Status.aspx.designer.cs">
+      <DependentUpon>Status.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
