@@ -29,13 +29,7 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h2></h2>
-            <p>
-                
-            </p>
-            <p>
-               
-            </p>
+
         </div>
     </div>
 
